@@ -26,10 +26,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="bg-[#FFF8F3]">
+    <header class="bg-[#FFF8F3] bg-[url('../images/header_bg.png')] bg-no-repeat  bg-[position:bottom_right] mt-5">
       <!-- navbar -->
-      <div class="navbar md:px-36">
-        <div class="navbar-start">
+      <div class="navbar md:px-36 ">
+        <div class="navbar-start ">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
@@ -76,7 +76,7 @@
 
       <!-- Banner -->
       <div class="md:flex items-center mx-auto justify-between">
-        <div class="md:ml-36 w-2/5  ">
+        <div class="md:ml-36 md:w-2/5  ">
           <h3 class="text-black text-3xl my-5">Hi, I am</h3>
           <h1 class="text-black font-bold text-5xl mb-5">
             Md. Abdullah <br />Az Zahur
@@ -97,7 +97,9 @@
             <a href="">Contact</a>
           </button>
         </div>
-        <img class="w-2/5" src="images/gias.png" alt="" />
+        <div class="w-2/5 ">
+          <img class="" src="images/gias.png" alt="" />
+        </div>
       </div>
     </header>
     <main></main>
