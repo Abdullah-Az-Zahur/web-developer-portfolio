@@ -28,34 +28,76 @@
   <body>
     <header class="bg-[#FFF8F3]">
       <!-- navbar -->
-      <nav class="flex justify-between items-center mt-8 mx-48 pt-4">
-        <h3 class="font-extrabold text-3xl">
-          <span class="text-orange-500">Md. </span>Abdullah
-          <span class="text-orange-500">Az</span> Zahur
-        </h3>
-        <ul class="flex gap-12 items-center">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Blog</a></li>
-          <li>
-            <button class="btn text-white bg-orange-500 rounded-md border-none">
-              <a href="">Hire Me</a>
-            </button>
-          </li>
-        </ul>
-      </nav>
+      <div class="navbar md:px-36">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Portfolio</a></li>
+              <li><a>Blog</a></li>
+            </ul>
+          </div>
+          <h3 class="font-extrabold text-3xl">
+            <span class="text-orange-500">Md. </span>Abdullah
+            <span class="text-orange-500">Az</span> Zahur
+          </h3>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Portfolio</a></li>
+            <li><a>Blog</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <button class="btn text-white bg-orange-500 rounded-md border-none ">
+            <a href="">Hire Me</a>
+          </button>
+        </div>
+      </div>
+      
 
       <!-- Banner -->
-      <div class="pl-36">
-        <div class="">
-          <h3 class="text-black text-3xl mb-5">Hi, I am</h3>
+      <div class="md:flex items-center mx-auto justify-between">
+        <div class="md:ml-36 w-2/5  ">
+          <h3 class="text-black text-3xl my-5">Hi, I am</h3>
           <h1 class="text-black font-bold text-5xl mb-5">
             Md. Abdullah <br />Az Zahur
           </h1>
-          <p class="w-2/5 ">
+          <p class="w-full">
             Creating clean, responsive, and efficient websites with HTML, CSS,
-            and JavaScript, and modern frameworks. Let's build something great together!
+            and JavaScript, and modern frameworks. Let's build something great
+            together!
           </p>
+          <button
+            class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
+          >
+            <a href="">Download CV</a>
+          </button>
+          <button
+            class="btn text-orange-500 bg-[#FFF8F3] rounded-md border-orange-500"
+          >
+            <a href="">Contact</a>
+          </button>
         </div>
+        <img class="w-2/5" src="images/gias.png" alt="" />
       </div>
     </header>
     <main></main>
