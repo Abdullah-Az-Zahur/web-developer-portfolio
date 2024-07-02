@@ -26,83 +26,231 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="bg-[#FFF8F3] bg-[url('../images/header_bg.png')] bg-no-repeat  bg-[position:bottom_right] mt-5">
-      <!-- navbar -->
-      <div class="navbar md:px-36 ">
-        <div class="navbar-start ">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <header class="flex">
+      <div class="my-auto md:px-5">
+        <img class="" src="images/developer.png" alt="" />
+      </div>
+      <div
+        class="bg-[#FFF8F3] bg-[url('../images/header_bg.png')] bg-no-repeat bg-[position:bottom_right] mt-5"
+      >
+        <!-- navbar -->
+        <div class="navbar md:px-36">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Portfolio</a></li>
+                <li><a>Blog</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
+            <h3 class="font-extrabold md:text-3xl">
+              <span class="text-orange-500">Md. </span>Abdullah
+              <span class="text-orange-500">Az</span> Zahur
+            </h3>
+          </div>
+          <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
               <li><a>Portfolio</a></li>
               <li><a>Blog</a></li>
             </ul>
           </div>
-          <h3 class="font-extrabold text-3xl">
-            <span class="text-orange-500">Md. </span>Abdullah
-            <span class="text-orange-500">Az</span> Zahur
-          </h3>
+          <div class="">
+            <button class="btn text-white bg-orange-500 rounded-md border-none">
+              <a href="">Hire Me</a>
+            </button>
+          </div>
         </div>
-        <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Portfolio</a></li>
-            <li><a>Blog</a></li>
-          </ul>
-        </div>
-        <div class="">
-          <button class="btn text-white bg-orange-500 rounded-md border-none ">
-            <a href="">Hire Me</a>
-          </button>
-        </div>
-      </div>
-      
 
-      <!-- Banner -->
-      <div class="md:flex items-center mx-auto justify-between">
-        <div class="md:ml-36 md:w-2/5  ">
-          <h3 class="text-black text-3xl my-5">Hi, I am</h3>
-          <h1 class="text-black font-bold text-5xl mb-5">
-            Md. Abdullah <br />Az Zahur
-          </h1>
-          <p class="w-full">
-            Creating clean, responsive, and efficient websites with HTML, CSS,
-            and JavaScript, and modern frameworks. Let's build something great
-            together!
-          </p>
-          <button
-            class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
-          >
-            <a href="">Download CV</a>
-          </button>
-          <button
-            class="btn text-orange-500 bg-[#FFF8F3] rounded-md border-orange-500"
-          >
-            <a href="">Contact</a>
-          </button>
-        </div>
-        <div class="w-2/5 ">
-          <img class="" src="images/gias.png" alt="" />
+        <!-- Banner -->
+
+        <div class="">
+          <div class="md:flex items-end mx-auto justify-between">
+            <div class="md:ml-36 md:w-2/5 ml-5">
+              <h3 class="text-black md:text-3xl my-5">Hi, I am</h3>
+              <h1 class="text-black font-bold md:text-5xl mb-5">
+                Md. Abdullah <br />Az Zahur
+              </h1>
+              <p class="md:w-full">
+                Creating clean, responsive, and efficient websites with HTML,
+                CSS, and JavaScript, and modern frameworks. Let's build
+                something great together!
+              </p>
+              <button
+                class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
+              >
+                <a
+                  href="https://drive.google.com/uc?export=download&id=15_17rv6PbTe_A7zyhBmR2pwwCJXpjPBq"
+                  download
+                  >Download CV</a
+                >
+              </button>
+              <button
+                class="btn text-orange-500 bg-[#FFF8F3] rounded-md border-orange-500"
+              >
+                <a href="">Contact</a>
+              </button>
+            </div>
+            <div class="w-2/6">
+              <img class="initial-scale=1.0" src="images/gias.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </header>
-    <main></main>
+
+    <!-- main -->
+    <main class="container mx-auto">
+      <!-- about -->
+      <section class="bg-[#FFF8F3] my-10 p-36">
+        <h3 class="items-center text-center font-bold text-4xl">About Me</h3>
+        <div class="text-center my-8 text-gray-500 text-lg">
+          <p>
+            Hello! I'm Md. Abdullah Az Zahur, a passionate Front-End Web
+            Developer with a B.Sc. in Computer Science from North Western
+            University. With a keen eye for detail and a love for creating
+            seamless user experiences, I specialize in building responsive and
+            interactive websites using modern web technologies.
+          </p>
+
+          <p>
+            I have hands-on experience with a variety of front-end technologies
+            and frameworks including Tailwind CSS, MongoDB, Node.js, and
+            Express.js. My journey as a developer is driven by a commitment to
+            learning and improving, always staying up-to-date with the latest
+            trends and best practices in web development.
+          </p>
+
+          <p>
+            I believe in the power of collaboration and open-source
+            contributions, which is why you'll often find me sharing my projects
+            and insights on GitHub. Outside of coding, I enjoy exploring new
+            tech innovations, contributing to community projects, and connecting
+            with fellow tech enthusiasts on social media.
+          </p>
+
+          <!-- <p>
+            Feel free to connect with me on
+            <a
+              href="https://www.linkedin.com/in/md-abdullah-az-zahur/"
+              target="_blank"
+              class="text-blue-600 font-bold hover:underline"
+              >LinkedIn</a
+            >, check out my work on
+            <a
+              href="https://github.com/Abdullah-Az-Zahur"
+              target="_blank"
+              class="text-gray-800 font-bold hover:underline"
+              >GitHub</a
+            >, or follow me on
+            <a
+              href="https://x.com/abdullahazzahur"
+              target="_blank"
+              class="text-blue-400 font-bold hover:underline"
+              >Twitter</a
+            >
+            and
+            <a
+              href="https://www.facebook.com/abdullahaazzahur.giyas"
+              target="_blank"
+              class="text-blue-700 font-bold hover:underline"
+              >Facebook</a
+            >.
+          </p> -->
+
+          <p>Let's build something amazing together!</p>
+        </div>
+        <div class="md:flex gap-12 justify-center">
+          <div>
+            <p class="text-gray-500 text-center">Name:</p>
+            <p class="font-bold text-center">Md. Abdullah Az Zahur</p>
+          </div>
+          <div>
+            <p class="text-gray-500 text-center">Email:</p>
+            <p class="font-bold text-center">
+              <a
+                href="mailto:abdullah.az.zahur@gmail.com"
+                class="text-blue-600 font-bold hover:underline"
+                >abdullah.az.zahur@gmail.com</a
+              >
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-500 text-center">Date of birth:</p>
+            <p class="font-bold text-center">07 October 1999</p>
+          </div>
+          <div>
+            <p class="text-gray-500 text-center">From:</p>
+            <p class="font-bold text-center">Khulna, Bangladesh</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What I do -->
+      <section class="my-10 p-36">
+        <h3 class="items-center text-center font-bold text-4xl">What I do</h3>
+        <div class="text-center my-8 text-gray-500 text-lg">
+          <p class="text-base text-gray-500 leading-normal mb-4">
+            Hello! I'm Md. Abdullah Az Zahur, a fresher Front-End Web Developer
+            enthusiastic about crafting user-friendly interfaces and responsive
+            web applications using JavaScript, React, Tailwind CSS, MongoDB,
+            Node.js, and Express.js.
+          </p>
+
+          <p class="text-base text-gray-500 leading-normal mb-4">
+            I am eager to learn and grow in the field of web development,
+            exploring new technologies and applying best practices to create
+            engaging digital experiences. I am committed to delivering
+            high-quality code and continuously improving my skills to contribute
+            effectively to team projects.
+          </p>
+
+          <p class="text-base text-gray-500 leading-normal mb-4">
+            You can find examples of my work on
+            <a
+              href="https://github.com/Abdullah-Az-Zahur"
+              target="_blank"
+              class="text-gray-700 font-bold hover:underline"
+              >GitHub</a
+            >
+            and connect with me on
+            <a
+              href="https://www.linkedin.com/in/md-abdullah-az-zahur/"
+              target="_blank"
+              class="text-blue-600 font-bold hover:underline"
+              >LinkedIn</a
+            >. Feel free to reach out via email at
+            <a
+              href="mailto:abdullah.az.zahur@gmail.com"
+              class="text-blue-600 font-bold hover:underline"
+              >abdullah.az.zahur@gmail.com</a
+            >.
+          </p>
+        </div>
+        <!-- skills card -->
+        <div></div>
+      </section>
+    </main>
+
+    <!-- footer -->
     <footer></footer>
   </body>
 </html>
