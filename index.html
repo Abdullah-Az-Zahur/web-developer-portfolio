@@ -119,7 +119,7 @@
     <!-- main -->
     <main class="container mx-auto">
       <!-- about -->
-      <section class="bg-[#FFF8F3] my-10 p-36">
+      <section class="bg-[#FFF8F3] my-10 md:p-36">
         <h3 class="items-center text-center font-bold text-4xl">About Me</h3>
         <div class="text-center my-8 text-gray-500 text-lg">
           <p>
@@ -205,7 +205,7 @@
       </section>
 
       <!-- What I do -->
-      <section class="my-10 p-36">
+      <section class="my-10 md:p-36">
         <h3 class="items-center text-center font-bold text-4xl">What I do</h3>
         <div class="text-center my-8 text-gray-500 text-lg">
           <p class="text-base text-gray-500 leading-normal mb-4">
@@ -246,7 +246,90 @@
           </p>
         </div>
         <!-- skills card -->
-        <div></div>
+        <div class="grid md:grid-cols-3 gap-4 mt-14">
+          <!-- JavaScript -->
+          <div class="bg-base-100 shadow-xl p-7">
+            <figure class="relative flex-shrink-0">
+              <img
+                src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons/icons/file_type_js.svg"
+                alt="JavaScript Animation"
+                class="rounded-xl"
+                style="width: 44px; height: 44px"
+              />
+            </figure>
+            <div class=" ">
+              <h2 class="card-title my-5 font-bold">JavaScript</h2>
+              <p class="text-gray-500">
+                JavaScript, the programming language of the web, empowers
+                developers to create dynamic and interactive web pages. From
+                front-end interactivity to server-side scripting with Node.js,
+                JavaScript is versatile and essential for modern web
+                development.
+              </p>
+            </div>
+          </div>
+
+          <!-- react -->
+          <div class="bg-base-100 shadow-xl p-7">
+            <figure class="relative flex-shrink-0">
+              <img
+                src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons/icons/file_type_reactjs.svg"
+                alt="React Animation"
+                class="rounded-xl"
+                style="width: 44px; height: 44px"
+              />
+            </figure>
+            <div class="">
+              <h2 class="card-title my-5 font-bold">React</h2>
+              <p class="text-gray-500 ">
+                React is a JavaScript library for building user interfaces. It
+                allows developers to create reusable UI components that manage
+                their own state. React's virtual DOM enables efficient updates
+                to the UI, making it popular for single-page applications and
+                large-scale web apps.
+              </p>
+            </div>
+          </div>
+          <!--  Tailwind CSS -->
+          <div class="bg-base-100 shadow-xl p-7">
+            <figure class="relative flex-shrink-0">
+              <img
+                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=blue&shade=600"
+                alt="Tailwind CSS Logo"
+                class="rounded-xl"
+                style="width: 44px; height: 44px"
+              />
+            </figure>
+            <div class="">
+              <h2 class="card-title my-5 font-bold">Tailwind CSS</h2>
+              <p class="text-gray-500">
+                Tailwind CSS is a utility-first CSS framework that allows you to
+                design web interfaces by composing utility classes. It promotes
+                building responsive designs and custom components without
+                writing custom CSS.
+              </p>
+            </div>
+          </div>
+
+          <!-- MongoDB -->
+          <div class="shadow-xl p-7 rounded-lg">
+            <figure class="relative flex-shrink-0">
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png"
+                alt="MongoDB Logo"
+                class="rounded-xl"
+                style="width: 44px; height: 44px;"
+              />
+            </figure>
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-3">MongoDB</h2>
+              <p class="text-gray-700">
+                MongoDB is a NoSQL database program that uses JSON-like documents with schema. It provides high performance, high availability, and easy scalability. MongoDB is widely used for modern applications, handling large volumes of data and supporting complex queries.
+              </p>
+            </div>
+          </div>
+          
+        </div>
       </section>
     </main>
 
