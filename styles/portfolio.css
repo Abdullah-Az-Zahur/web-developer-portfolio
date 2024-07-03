@@ -17,3 +17,16 @@ font-family: "Open Sans", sans-serif;
 .btn-style-primary {
     color: #FD6E0A;
 }
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite; /* Adjust '3s' to control the animation speed */
+}
