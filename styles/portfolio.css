@@ -30,3 +30,8 @@ font-family: "Open Sans", sans-serif;
 .animate-spin-slow {
   animation: spin-slow 10s linear infinite; /* Adjust '3s' to control the animation speed */
 }
+
+/* Custom class to apply square bullets */
+.list-square {
+  list-style-type: square;
+}

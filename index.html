@@ -150,7 +150,7 @@
     <!-- main -->
     <main class="container mx-auto">
       <!-- about -->
-      <section id="About Me" class="bg-[#FFF8F3] my-10 md:p-36">
+      <section id="About Me" class="bg-[#FFF8F3] my-10 md:p-10">
         <h3 class="items-center text-center font-bold md:text-4xl">About Me</h3>
         <div class="text-center my-8 text-gray-400 md:text-lg p-2">
           <p>
@@ -177,7 +177,7 @@
             with fellow tech enthusiasts on social media.
           </p>
 
-          <!-- <p>
+          <p>
             Feel free to connect with me on
             <a
               href="https://www.linkedin.com/in/md-abdullah-az-zahur/"
@@ -204,7 +204,7 @@
               class="text-blue-700 font-bold hover:underline"
               >Facebook</a
             >.
-          </p> -->
+          </p>
 
           <p>Let's build something amazing together!</p>
         </div>
@@ -236,7 +236,7 @@
       </section>
 
       <!-- What I do -->
-      <section class="my-10 md:p-36">
+      <section class="my-10">
         <h3 class="items-center text-center font-bold md:text-4xl">
           What I do
         </h3>
@@ -327,12 +327,13 @@
           <div class="bg-base-100 shadow-xl p-7">
             <figure class="relative flex-shrink-0">
               <img
-                src="https://tailwindui.com/img/logos/workflow-mark.svg?color=blue&shade=600"
+                src="https://tailwindui.com/img/logos/tailwind-ui-mark-blue-600.svg"
                 alt="Tailwind CSS Logo"
                 class="rounded-xl animate-bounce"
                 style="width: 44px; height: 44px"
               />
             </figure>
+            
             <div class="">
               <h2 class="card-title my-5 font-bold">Tailwind CSS</h2>
               <p class="text-gray-400">
@@ -412,7 +413,7 @@
       </section>
 
       <!-- A summary of My Resume -->
-      <section id="Education & Projects" class="my-10 md:p-36 gap-6">
+      <section id="Education & Projects" class="my-10 gap-6">
         <h3
           class="items-center text-center font-bold md:text-4xl text-xl md:mb-28 mb-5"
         >
@@ -478,11 +479,87 @@
             <!-- Project 1 -->
             <div>
               <h4 class="font-bold text-blue-600 mb-2 hover:underline">
-                <a href="https://survey-vista.web.app/" target="_blank"
-                  >Survey Vista</a
-                >
+                <h2 class="font-bold text-lg">Jobify (Team Project)</h2>
               </h4>
+
               <div class="flex gap-2">
+                <a
+                  class="text-blue-600 font-bold hover:underline"
+                  href="https://jobify-13db1.web.app/"
+                  target="_blank"
+                  >Live Site</a
+                >
+                <p>|</p>
+                <a
+                  class="text-blue-600 font-bold hover:underline"
+                  href="https://github.com/shahoriarniloy/Jobify"
+                  target="_blank"
+                  >Client Side</a
+                >
+                <p>|</p>
+                <a
+                  class="text-blue-600 font-bold hover:underline"
+                  href="https://github.com/shahoriarniloy/Jobify-server"
+                  target="_blank"
+                  >Server Side</a
+                >
+              </div>
+              <p class="mb-6 italic">
+                A collaborative job-seeking platform connecting users with
+                opportunities through detailed listings and interactive
+                features.
+              </p>
+
+              <ul class="list-disc list-inside space-y-4 text-sm">
+                <li>
+                  <strong>Developed Feature-Rich Interfaces:</strong> Designed
+                  and implemented the Single Job Page, Single Company Page, and
+                  Employee Dashboard, integrating pagination, dynamic content
+                  rendering, and interactive modals for a seamless user
+                  experience.
+                </li>
+                <li>
+                  <strong>Enhanced Functionality and Accessibility:</strong>
+                  Introduced multilingual support, a Favorite Companies feature,
+                  and improved UI consistency across job cards, company pages,
+                  and team member sections, optimizing engagement and usability.
+                </li>
+                <li>
+                  <strong
+                    >Collaborated on Backend and Tools Integration:</strong
+                  >
+                  Created API endpoints for managing user preferences,
+                  implemented Dropzone for file uploads, and integrated React
+                  Headless UI, React Quill, and SweetAlert to enhance
+                  application interactivity and backend connectivity.
+                </li>
+             
+                <li class="list-square list-inside">
+                  <strong>Technologies Used:</strong>
+                  <span class="italic"
+                    >React, Tailwind CSS, Node.js, Express, MongoDB, Redux
+                    Toolkit, SweetAlert, React Quill, React Headless UI, React
+                    Hook Form</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <hr class="text-gray-400 my-7" />
+            <!-- Project 2 -->
+
+            <div>
+              <h4 class="font-bold text-blue-600 mb-2 hover:underline">
+                <h2 class="font-bold text-lg">Survey Vista (Team Project)</h2>
+              </h4>
+            
+              <div class="flex gap-2">
+                <a
+                  class="text-blue-600 font-bold hover:underline"
+                  href="https://survey-vista.web.app/"
+                  target="_blank"
+                  >Live Site</a
+                >
+                <p>|</p>
                 <a
                   class="text-blue-600 font-bold hover:underline"
                   href="https://github.com/Abdullah-Az-Zahur/survey-vista-client"
@@ -497,23 +574,47 @@
                   >Server Side</a
                 >
               </div>
-              <p class="text-gray-400">
-                A Survey application using the MERN (MongoDB, Express.js,
-                React.js, Node.js) stack. This project involves integrating
-                payment functionalities, implementing a robust user management
-                system, and creating an admin dashboard with role management.
+              
+              <p class="mb-6 italic">
+                A comprehensive survey creation and participation platform developed using the MERN stack, featuring advanced role management and interactive dashboards.
               </p>
+            
+              <ul class="list-disc list-inside space-y-4 text-sm">
+                <li>
+                  <strong>Feature-Rich User Interfaces:</strong> Designed multiple dashboards tailored for users, surveyors, and admins, enabling survey creation, detailed response analysis, role-based permissions, and streamlined content management.
+                </li>
+                <li>
+                  <strong>Interactive and Secure Voting System:</strong> Integrated voting mechanisms with visual result displays, filters for categories, and sorting options for surveys, ensuring accessibility and engagement for authenticated users.
+                </li>
+                <li>
+                  <strong>Pro-User and Payment Integration:</strong> Implemented a payment gateway to upgrade users to pro-user status, unlocking additional features such as commenting, reporting, and exclusive access to survey insights.
+                </li>
+                <li class="list-square list-inside">
+                  <strong>Technologies Used:</strong>
+                  <span class="italic">React, Tailwind CSS, Node.js, Express, MongoDB, TanStack Query, Firebase, SweetAlert</span>
+                </li>
+              </ul>
             </div>
             <hr class="text-gray-400 my-7" />
+            
 
-            <!-- Project 2 -->
+            
+
+            <!-- Project 3 -->
+
             <div>
               <h4 class="font-bold text-blue-600 mb-2 hover:underline">
-                <a href="https://job-nest-391e1.web.app/" target="_blank"
-                  >Job Nest</a
-                >
+                <h2 class="font-bold text-lg">Job Nest (Team Project)</h2>
               </h4>
+            
               <div class="flex gap-2">
+                <a
+                  class="text-blue-600 font-bold hover:underline"
+                  href="https://job-nest-391e1.web.app/"
+                  target="_blank"
+                  >Live Site</a
+                >
+                <p>|</p>
                 <a
                   class="text-blue-600 font-bold hover:underline"
                   href="https://github.com/Abdullah-Az-Zahur/work-nest-client"
@@ -528,56 +629,32 @@
                   >Server Side</a
                 >
               </div>
-              <p class="text-gray-400">
-                I am developing a comprehensive job-seeking platform using the
-                MERN (MongoDB, Express.js, React, Node.js) stack. This project
-                includes creating intuitive job posting and search
-                functionalities categorized into On-Site, Remote, Hybrid, and
-                Part-Time roles. Key features encompass seamless job application
-                submissions, user profile management, and tracking applied jobs.
-                The website incorporates JWT authentication for secure logins, a
-                responsive navbar with conditional rendering based on user
-                authentication, and a dynamic theme toggling feature.
+              
+              <p class="mb-6 italic">
+                A job platform designed for intuitive job postings and applications, optimized for secure access and cross-device compatibility.
               </p>
+            
+              <ul class="list-disc list-inside space-y-4 text-sm">
+                <li>
+                  <strong>Dynamic Job Search and Application Features:</strong> Designed a categorized job system with tabs for On-Site, Remote, Hybrid, and Part-Time jobs. Each category displays job details, allowing users to view jobs and apply via a secure application process.
+                </li>
+                <li>
+                  <strong>User-Centric Pages:</strong> Implemented private routes for adding, viewing, and managing jobs. Developed dynamic dashboards for "My Jobs," "Applied Jobs," and detailed job views with application tracking.
+                </li>
+                <li>
+                  <strong>Interactive and Custom UI Elements:</strong> Integrated features like a theme toggle (light/dark mode), toast notifications for CRUD actions, a blog section, and a fully responsive design for all devices.
+                </li>
+                <li class="list-square list-inside">
+                  <strong>Technologies Used:</strong>
+                  <span class="italic">React, Tailwind CSS, Node.js, Express, MongoDB, JWT, SweetAlert, React Tabs, React Hook Form</span>
+                </li>
+              </ul>
             </div>
-            <hr class="text-gray-400 my-7" />
+            
+            
 
-            <!-- Project 3 -->
-            <div>
-              <h4 class="font-bold text-blue-600 mb-2 hover:underline">
-                <a
-                  href="https://bd-art-gallery.firebaseapp.com/"
-                  target="_blank"
-                  >BD Art Gallery</a
-                >
-              </h4>
-              <div class="flex gap-2">
-                <a
-                  class="text-blue-600 font-bold hover:underline"
-                  href="https://github.com/Abdullah-Az-Zahur/bd-art-gallery-client?tab=readme-ov-file"
-                  target="_blank"
-                  >Client Side</a
-                >
-                <p>|</p>
-                <a
-                  class="text-blue-600 font-bold hover:underline"
-                  href="https://github.com/Abdullah-Az-Zahur/bd-art-gallery-server"
-                  target="_blank"
-                  >Server Side</a
-                >
-              </div>
-              <p class="text-gray-400">
-                A comprehensive Art & Craft Store website built using the MERN
-                (MongoDB, Express.js, React.js, Node.js) stack. This project
-                features seamless CRUD operations for managing craft items, user
-                authentication with JWT, dynamic frontend with React components,
-                and protected routes for adding, updating, and viewing detailed
-                craft listings. The website includes social login options,
-                responsive design, and showcases a variety of crafted items
-                categorized for easy navigation.
-              </p>
-            </div>
-            <hr class="text-gray-400 my-7" />
+
+            
           </div>
         </div>
         <div class="w-max mx-auto">
