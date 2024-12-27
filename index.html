@@ -31,11 +31,11 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-base-100">
     <header class="flex">
-      <div class="my-auto md:px-5">
+      <!-- <div class="my-auto md:px-5">
         <img class="" src="images/developer.png" alt="" />
-      </div>
+      </div> -->
       <!-- bg image from public store -->
       <!-- <div
         class="bg-[#FFF8F3] bg-[url('../images/header_bg.png')] bg-no-repeat bg-[position:bottom_right] mt-5"
@@ -89,17 +89,20 @@
           </div>
           <div class="">
             <button
-              class="btn text-white bg-orange-500 rounded-md border-none"
+              class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
               onclick="location.href='mailto:abdullah.az.zahur@gmail.com'"
             >
-              <a href="">Hire Me</a>
+              Hire Me
             </button>
           </div>
         </div>
 
         <!-- Banner -->
 
-        <div class="">
+        <div class="flex ">
+          <div class="my-auto md:px-5 h-full">
+            <img class="" src="images/developer.png" alt="" />
+          </div>
           <div class="md:flex items-end mx-auto justify-between">
             <div class="md:ml-36 md:w-2/5 ml-5 my-auto">
               <h3 class="text-black md:text-3xl my-5">Hi, I am</h3>
@@ -116,29 +119,33 @@
                 class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
               >
                 <a
-                  href="https://drive.google.com/uc?export=download&id=15_17rv6PbTe_A7zyhBmR2pwwCJXpjPBq"
+                  href="https://drive.google.com/uc?export=download&id=15_17rv6PbTe_A7zyhBmR2pwwCJXpjPBq&v=1"
                   download
                 >
-                  Download CV</a
-                >
+                  Download CV
+                </a>
               </button>
+
               <!-- Download Resume -->
               <button
                 class="btn text-white bg-orange-500 rounded-md border-none mr-5 my-5"
               >
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1rFcbQsG8SP87RLSzXEz3OcdbCbh7Z2jx"
+                  href="https://drive.google.com/uc?export=download&id=1YGbjgs7i4bofhY_S0o1XP_yto7KjzMAz&v=1"
                   download
                 >
-                  Download Resume</a
-                >
+                  Download Resume
+                </a>
               </button>
+
               <button
-                class="btn text-orange-500 bg-[#FFF8F3] rounded-md border-orange-500"
+                class="btn text-orange-500 bg-[#FFF8F3] rounded-md border-orange-500 mb-5"
               >
                 <a href="tel:+8801705697897">Contact</a>
               </button>
             </div>
+
+            <!-- my img -->
             <div class="w-2/6">
               <img class="initial-scale=1.0" src="images/gias.png" alt="" />
             </div>
@@ -333,7 +340,7 @@
                 style="width: 44px; height: 44px"
               />
             </figure>
-            
+
             <div class="">
               <h2 class="card-title my-5 font-bold">Tailwind CSS</h2>
               <p class="text-gray-400">
@@ -533,7 +540,7 @@
                   Headless UI, React Quill, and SweetAlert to enhance
                   application interactivity and backend connectivity.
                 </li>
-             
+
                 <li class="list-square list-inside">
                   <strong>Technologies Used:</strong>
                   <span class="italic"
@@ -551,7 +558,7 @@
               <h4 class="font-bold text-blue-600 mb-2 hover:underline">
                 <h2 class="font-bold text-lg">Survey Vista (Team Project)</h2>
               </h4>
-            
+
               <div class="flex gap-2">
                 <a
                   class="text-blue-600 font-bold hover:underline"
@@ -574,31 +581,42 @@
                   >Server Side</a
                 >
               </div>
-              
+
               <p class="mb-6 italic">
-                A comprehensive survey creation and participation platform developed using the MERN stack, featuring advanced role management and interactive dashboards.
+                A comprehensive survey creation and participation platform
+                developed using the MERN stack, featuring advanced role
+                management and interactive dashboards.
               </p>
-            
+
               <ul class="list-disc list-inside space-y-4 text-sm">
                 <li>
-                  <strong>Feature-Rich User Interfaces:</strong> Designed multiple dashboards tailored for users, surveyors, and admins, enabling survey creation, detailed response analysis, role-based permissions, and streamlined content management.
+                  <strong>Feature-Rich User Interfaces:</strong> Designed
+                  multiple dashboards tailored for users, surveyors, and admins,
+                  enabling survey creation, detailed response analysis,
+                  role-based permissions, and streamlined content management.
                 </li>
                 <li>
-                  <strong>Interactive and Secure Voting System:</strong> Integrated voting mechanisms with visual result displays, filters for categories, and sorting options for surveys, ensuring accessibility and engagement for authenticated users.
+                  <strong>Interactive and Secure Voting System:</strong>
+                  Integrated voting mechanisms with visual result displays,
+                  filters for categories, and sorting options for surveys,
+                  ensuring accessibility and engagement for authenticated users.
                 </li>
                 <li>
-                  <strong>Pro-User and Payment Integration:</strong> Implemented a payment gateway to upgrade users to pro-user status, unlocking additional features such as commenting, reporting, and exclusive access to survey insights.
+                  <strong>Pro-User and Payment Integration:</strong> Implemented
+                  a payment gateway to upgrade users to pro-user status,
+                  unlocking additional features such as commenting, reporting,
+                  and exclusive access to survey insights.
                 </li>
                 <li class="list-square list-inside">
                   <strong>Technologies Used:</strong>
-                  <span class="italic">React, Tailwind CSS, Node.js, Express, MongoDB, TanStack Query, Firebase, SweetAlert</span>
+                  <span class="italic"
+                    >React, Tailwind CSS, Node.js, Express, MongoDB, TanStack
+                    Query, Firebase, SweetAlert</span
+                  >
                 </li>
               </ul>
             </div>
             <hr class="text-gray-400 my-7" />
-            
-
-            
 
             <!-- Project 3 -->
 
@@ -606,7 +624,7 @@
               <h4 class="font-bold text-blue-600 mb-2 hover:underline">
                 <h2 class="font-bold text-lg">Job Nest (Team Project)</h2>
               </h4>
-            
+
               <div class="flex gap-2">
                 <a
                   class="text-blue-600 font-bold hover:underline"
@@ -629,32 +647,42 @@
                   >Server Side</a
                 >
               </div>
-              
+
               <p class="mb-6 italic">
-                A job platform designed for intuitive job postings and applications, optimized for secure access and cross-device compatibility.
+                A job platform designed for intuitive job postings and
+                applications, optimized for secure access and cross-device
+                compatibility.
               </p>
-            
+
               <ul class="list-disc list-inside space-y-4 text-sm">
                 <li>
-                  <strong>Dynamic Job Search and Application Features:</strong> Designed a categorized job system with tabs for On-Site, Remote, Hybrid, and Part-Time jobs. Each category displays job details, allowing users to view jobs and apply via a secure application process.
+                  <strong>Dynamic Job Search and Application Features:</strong>
+                  Designed a categorized job system with tabs for On-Site,
+                  Remote, Hybrid, and Part-Time jobs. Each category displays job
+                  details, allowing users to view jobs and apply via a secure
+                  application process.
                 </li>
                 <li>
-                  <strong>User-Centric Pages:</strong> Implemented private routes for adding, viewing, and managing jobs. Developed dynamic dashboards for "My Jobs," "Applied Jobs," and detailed job views with application tracking.
+                  <strong>User-Centric Pages:</strong> Implemented private
+                  routes for adding, viewing, and managing jobs. Developed
+                  dynamic dashboards for "My Jobs," "Applied Jobs," and detailed
+                  job views with application tracking.
                 </li>
                 <li>
-                  <strong>Interactive and Custom UI Elements:</strong> Integrated features like a theme toggle (light/dark mode), toast notifications for CRUD actions, a blog section, and a fully responsive design for all devices.
+                  <strong>Interactive and Custom UI Elements:</strong>
+                  Integrated features like a theme toggle (light/dark mode),
+                  toast notifications for CRUD actions, a blog section, and a
+                  fully responsive design for all devices.
                 </li>
                 <li class="list-square list-inside">
                   <strong>Technologies Used:</strong>
-                  <span class="italic">React, Tailwind CSS, Node.js, Express, MongoDB, JWT, SweetAlert, React Tabs, React Hook Form</span>
+                  <span class="italic"
+                    >React, Tailwind CSS, Node.js, Express, MongoDB, JWT,
+                    SweetAlert, React Tabs, React Hook Form</span
+                  >
                 </li>
               </ul>
             </div>
-            
-            
-
-
-            
           </div>
         </div>
         <div class="w-max mx-auto">
